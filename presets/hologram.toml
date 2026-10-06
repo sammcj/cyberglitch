@@ -1,0 +1,24 @@
+# Flickering blue projection with ghost trails and short drips
+[tone]
+ramp = ["#02060c", "#0a2a4a", "#1460a8", "#19b5ff", "#7ef9ff", "#e8ffff"]
+
+[dither]
+palette = ["#02060c", "#0a2a4a", "#1460a8", "#19b5ff", "#7ef9ff", "#e8ffff", "#ff3cac"]
+mod_speed = 0.3
+
+[drip]
+length = 40
+jitter = 0.6
+mix = 0.7
+
+[echo]
+decay = 0.85
+
+[glow]
+intensity = 1.8
+
+[post]
+chroma = 3
+scanlines = 0.35
+scanline_period = 4
+flicker = 0.12

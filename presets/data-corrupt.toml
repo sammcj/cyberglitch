@@ -1,0 +1,17 @@
+# Reference palette with heavy signal corruption: tears, channel swaps, trails
+[dither]
+mod_speed = 0.5
+
+[echo]
+decay = 0.7
+
+[glitch]
+chance = 0.6
+slices = 4
+max_height = 12
+max_shift = 60
+channel_swap = true
+
+[post]
+chroma = 4
+grain = 0.02

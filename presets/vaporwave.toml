@@ -1,0 +1,16 @@
+# Purple-to-pink sunset haze with cyan accents
+[tone]
+ramp = ["#120b24", "#3b1e6b", "#7d3cff", "#ff4fd8", "#ff9ae5", "#fdf6ff"]
+
+[dither]
+palette = ["#120b24", "#3b1e6b", "#7d3cff", "#ff4fd8", "#ff9ae5", "#3ff0ff", "#fdf6ff"]
+
+[haze]
+strength = 0.22
+top = "#3b1e6b"
+bottom = "#ff4fd8"
+falloff = 2.0
+
+[post]
+chroma = 2
+scanlines = 0.12

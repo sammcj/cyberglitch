@@ -1,0 +1,16 @@
+# Infrared surveillance camera
+[tone]
+ramp = ["#05010d", "#2a0a5e", "#7a0f8f", "#d6215b", "#ff6b1a", "#ffc21a", "#fffbe0"]
+
+[dither]
+palette = ["#05010d", "#2a0a5e", "#7a0f8f", "#d6215b", "#ff6b1a", "#ffc21a", "#fffbe0"]
+
+[drip]
+threshold = 0.35
+
+[glow]
+intensity = 1.2
+
+[post]
+grain = 0.05
+vignette = 0.3

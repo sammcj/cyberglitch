@@ -1,0 +1,42 @@
+[project]
+name = "cyberglitch"
+version = "0.1.0"
+description = "Cyberpunk palette dither, drip and bloom for video and images"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.3",
+    "numba>=0.68.0",
+    "scipy>=1.18.1",
+]
+
+[project.optional-dependencies]
+# ML subject matte for footage that isn't shot on a dark background
+matte = ["rembg[cpu]>=2.0.85"]
+web = ["starlette>=1.7.0", "uvicorn>=0.54.0", "python-multipart>=0.0.32"]
+
+[project.scripts]
+cyberglitch = "cyberglitch.cli:main"
+cyberglitch-web = "cyberglitch.web:main"
+
+[dependency-groups]
+dev = ["pytest>=9.1.1", "ruff>=0.16.10", "httpx>=0.28.1"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# Inline HTML markup reads better unbroken
+"cyberglitch/web.py" = ["E501"]
+
+[project.urls]
+Repository = "https://github.com/sammcj/cyberglitch"

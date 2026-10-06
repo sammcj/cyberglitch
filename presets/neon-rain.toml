@@ -1,0 +1,31 @@
+# Sodium-orange smog city with teal neon rain
+[tone]
+ramp = ["#0a0d12", "#1d2b38", "#7a2e1a", "#ff6a1a", "#ffb347", "#fff4e0"]
+
+[dither]
+palette = ["#0a0d12", "#1d2b38", "#7a2e1a", "#ff6a1a", "#ffb347", "#19c3c9", "#ff2e88", "#fff4e0"]
+
+[drip]
+threshold = 0.3
+jitter = 0.3
+
+[haze]
+strength = 0.5
+top = "#0e3a44"
+bottom = "#7a2e1a"
+
+[rain]
+density = 0.15
+colour = "#19c3c9"
+opacity = 0.6
+speed = 9.0
+
+[glow]
+intensity = 1.4
+radius = 12.0
+
+[post]
+chroma = 2
+scanlines = 0.15
+grain = 0.03
+vignette = 0.4

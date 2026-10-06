@@ -1,0 +1,6 @@
+# For footage not shot on black: cut the subject out with an ML matte.
+# Needs: uv sync --extra matte (downloads the u2net model, ~176 MB, on first run)
+[matte]
+mode = "rembg"
+model = "u2net"  # isnet-general-use is sharper but slower
+smooth = 0.5

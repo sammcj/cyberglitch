@@ -1,0 +1,9 @@
+# Example palette swap. Ramp entries should be palette colours ordered dark to light.
+[tone]
+ramp = ["#0b0f14", "#123a4a", "#00a6a6", "#3cf2ff", "#c8ff3c", "#f2fff8"]
+
+[dither]
+palette = ["#0b0f14", "#123a4a", "#00a6a6", "#ff2a6d", "#3cf2ff", "#c8ff3c", "#f2fff8"]
+
+[glow]
+intensity = 1.3

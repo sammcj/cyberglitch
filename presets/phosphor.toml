@@ -1,0 +1,18 @@
+# Green monochrome CRT terminal
+[tone]
+ramp = ["#020802", "#0b2a0b", "#1f6b1f", "#3fbf3f", "#8cff6a", "#e6ffd9"]
+
+[dither]
+palette = ["#020802", "#0b2a0b", "#1f6b1f", "#3fbf3f", "#8cff6a", "#e6ffd9"]
+
+[glitch]
+chance = 0.15
+slices = 2
+
+[glow]
+intensity = 1.5
+
+[post]
+scanlines = 0.4
+vignette = 0.5
+grain = 0.04
