@@ -100,7 +100,7 @@ make presets IN=samples/flower-black.webm START=8   # one frame per preset, out/
 
 ## Origin
 
-The default look recreates a clip made with the [Dither EYE](https://play.google.com/store/apps/details?id=com.dither.eye) Android app. Its exported preset gave the algorithm (`MODULATED_DIFFUSE_X`), pixel scale and 8-colour palette. The other values were tuned by eye against the clip's frames.
+The idea came from [this r/Cyberpunk post](https://www.reddit.com/r/Cyberpunk/comments/1wxtlc3/roses_growth_testmp4tmp/). The `reference` look recreates its clip, which was made with the [Dither EYE](https://play.google.com/store/apps/details?id=com.dither.eye) Android app. Its exported preset gave the algorithm (`MODULATED_DIFFUSE_X`), pixel scale and 8-colour palette. The other values were tuned by eye against the clip's frames.
 
 ## Credits
 
